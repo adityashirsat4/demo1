@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stddef.h>
 
-int sum(int a,int b)
+float sum(float a,float b)
 {
-int c;
+float c;
 c=a+b;
 return c;
 }
 int main()
 {
-    int x=1,y=2,z;
+    float x=1.2,y=2.1,z;
     z=sum(x,y);
-    printf("sum= %d",z);
+    printf("sum= %f",z);
     return 0;
-
 }
