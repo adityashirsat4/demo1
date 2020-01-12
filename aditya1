@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stddef.h>
+
+int sum(int a,int b)
+{
+int c;
+c=a+b;
+return c;
+}
+int main()
+{
+    int x=1,y=2,z;
+    z=sum(x,y);
+    printf("sum= %d",z);
+    return 0;
+
+}
